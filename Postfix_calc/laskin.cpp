@@ -11,9 +11,8 @@ int main(int argc, char* argv[]) {
             std::getline(std::cin, expression);
 
             if (expression.empty()) {
-                break;  // Exit the loop on an empty line
+                break;
             }
-
             calculator.calculate(expression);
         }
     } else {
