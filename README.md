@@ -1,11 +1,11 @@
-# Postfix_calculator
-Postfix Calculator with C++
+# Postfix_calculator with C++
+Building the whole calculator took me around 20+ hours.
 
 ### How to use:
 - Open terminal
-- Go to the directory containing the program files
-- Use command: g++ Postfix_cal/*.cpp -o Postfix_cal/Postfix_calc
-- Run program: ./Postfix_cal/Postfix_calc -p
+- Navigate to the directory containing the program files
+- Use command: g++ Postfix_calc/*.cpp -o Postfix_calc/Postfix_calc
+- Run program: ./Postfix_calc/Postfix_calc -p
 
 ### Test cases:
 1. Addition and subtraction:
@@ -38,8 +38,4 @@ Postfix Calculator with C++
     --> Expected result: 47
 
     Input: 10 15 20 3 a
-    --> Expected result: 12.5
-
-
-
-
+    --> Expected result: 12
